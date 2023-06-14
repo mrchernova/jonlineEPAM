@@ -15,7 +15,7 @@ public class WindowAndTextArea extends JFrame {
 
 
         JTextArea area2 = new JTextArea(10, 50);
-        area2.setText("Второе многострочное поле");
+        area2.setText("Второе многострочное поле @@@");
         // Параметры переноса слов
         area2.setLineWrap(true);
         area2.setWrapStyleWord(true);
